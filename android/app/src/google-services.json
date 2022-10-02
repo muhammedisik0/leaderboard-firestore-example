@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414688851076",
+    "project_id": "color-game-821a1",
+    "storage_bucket": "color-game-821a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414688851076:android:ee13cad06630449f237ed1",
+        "android_client_info": {
+          "package_name": "com.example.tap_right_color"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414688851076-p2ukcap5h2rovgtaok4ok20fa0i4irq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAj1ANg0cpbRS1AYIOFfFsDlKROh1jvWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414688851076-p2ukcap5h2rovgtaok4ok20fa0i4irq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
