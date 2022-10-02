@@ -12,7 +12,7 @@ class FirestoreDbService {
     await _firestore.collection('highest-scores').doc().set(data);
   }
 
-  Future<void> deleteLowestScore(int lowestScore) async {
+  Future<void> deleteLowestScoredPlayer(int lowestScore) async {
     await _firestore.collection('highest-scores').where('score', isEqualTo: lowestScore).get().then((value) {
       for (var element in value.docs) {
         _firestore.collection('highest-scores').doc(element.id).delete();

@@ -212,7 +212,7 @@ class _GamePageState extends State<GamePage> {
         'score': score,
       });
     } else if (score > lowestScoredPlayer.score) {
-      await FirestoreDbService().deleteLowestScore(lowestScoredPlayer.score);
+      await FirestoreDbService().deleteLowestScoredPlayer(lowestScoredPlayer.score);
       await FirestoreDbService().setNewScore({
         'username': widget.username,
         'score': score,
